@@ -68,7 +68,7 @@ h3 {
   width: 250px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
@@ -216,11 +216,6 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
-  
-  body {
-    background-color: #333;
-  }
 
   /* The wrapper's width will be 600px */
   .wrapper {
@@ -232,4 +227,20 @@ input[type=submit] {
 
 }
 
+@media screen and (max-width: 980px) {
+  #masthead {position: static;}
+  .container {position: static;}
+  #navbar {position: static;}
+}
+@media screen and (max-width: 768px) {
+  #masthead {position: static;}
+  .container {position: static;}
+  #navbar {position: static;}
+}
 @media screen and (max-width: 640px) {
+  #masthead {position: static;}
+  .container {position: static;}
+  #navbar {position: static;}
+
+  }
+}
